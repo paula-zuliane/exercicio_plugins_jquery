@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(220, 206, 188);
+}
+
+.container{
+    width: auto;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form{
+    margin-top: 80px;
+}
+
+li{
+    margin: 8px 0;
+    list-style: none;
+}
+
+input{
+    display: block;
+    width: 300px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button{
+    background-color: rgb(20, 144, 68);
+    color: antiquewhite;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
